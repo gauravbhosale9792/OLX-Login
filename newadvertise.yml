@@ -1,0 +1,11 @@
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/olx_advertise_db
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: root
+    url: jdbc:mysql://localhost:3306/olx_advertise_db
+    username: root
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
