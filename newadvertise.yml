@@ -1,6 +1,4 @@
-  data:
-    mongodb:
-      uri: mongodb://localhost:27017/olx_advertise_db
+spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     password: root
